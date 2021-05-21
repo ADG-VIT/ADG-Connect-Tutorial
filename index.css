@@ -90,6 +90,11 @@ body {
 
 #google{
   margin-left: 1rem;
+  cursor: pointer;
+}
+
+#apple{
+  cursor: pointer;
 }
 
 button {
