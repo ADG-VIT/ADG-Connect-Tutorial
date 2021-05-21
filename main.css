@@ -43,7 +43,7 @@ body {
 /* Navbar */
 
 nav{
-  background-color: #111111;
+  background-color: rgba(255, 255, 255, 0.02);
   display: flex;
   height: 10vh;
   padding: 0% 0%;
@@ -85,15 +85,17 @@ nav{
   letter-spacing: 0.06em;
   line-height: 29px;
   text-decoration: none;
+  font-size: 13px;
   font-family: SF Pro Display;
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 24px;
+  transition: color .1s;
 
 }
 .nav-links ul li a:hover {
   color: #3E74FF;
-  transition: 0.5s;
+  
 }
 nav .fa{
   display: none;
@@ -103,7 +105,7 @@ nav .fa{
     display: none;
 }
 /* responsive_code_nav_bar*/
-@media(max-width:1258px) 
+@media(max-width:1291px) 
 {
   
   .nav-logo
@@ -129,7 +131,7 @@ nav .fa{
 
 .nav-links{
   position: absolute;
-  background-color: rgb(14, 13, 13);
+  background-color: #111111;
   background-image: url("./assets/navbar/navbar_background_img.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -187,7 +189,7 @@ nav .fa{
 
 .nav-links{
   position: absolute;
-  background-color: rgb(14, 13, 13);
+  background-color: #111111;
   background-image: url("./assets/navbar/navbar_background_img.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -238,7 +240,7 @@ nav .fa{
     /* 2vw */
     line-height: 149.34%;
     letter-spacing: calc(0.025em+0.5px);
-    width: 55%;
+    width: 45%;
     padding: 3% 5%;
 }
 
@@ -247,13 +249,10 @@ nav .fa{
     font-size: 72px;
     /* 6.2vw */
     padding: 8% 2% ;
-    letter-spacing: 0.4rem;
 }
 
 .info p{
-    padding: 2% 2% 0;
-    font-weight: 400;
-    letter-spacing: 0.1rem;
+    padding: 1.2% 2% 0;
 }
 
 img{
@@ -349,9 +348,6 @@ img{
     height: 33vh;
     width: 90%;
     line-height: 70.34%; 
-    justify-content: center;
-    text-align: center;
-    /* align-content: center; */
   }
 
   .info h2{
