@@ -311,7 +311,7 @@ img{
   }
   .space{
     max-height: 30px;
-    height: 3vh;
+    height: 2vh;
   }
 }
 /* @media(min-width:700px) and (max-width:820px){
@@ -415,6 +415,9 @@ img{
     font-size: 12px;
   }
   .img img{
+    height: 49vh;
+  }
+  .img-mom img{
     height: 49vh;
   }
 }
